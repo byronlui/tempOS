@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/byronlui/public_html/tempos/
+    - /bin/cp -R * $DEPLOYPATH
